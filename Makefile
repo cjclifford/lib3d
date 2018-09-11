@@ -6,7 +6,7 @@
 #    By: ccliffor <ccliffor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/08/28 12:06:00 by ccliffor          #+#    #+#              #
-#    Updated: 2018/08/28 15:05:02 by ccliffor         ###   ########.fr        #
+#    Updated: 2018/09/04 13:34:53 by ccliffor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ SRCS := $(SRC_FILES:%=$(SRCDIR)/%)
 OBJS := $(SRCS:%.c=%.o)
 
 ## Compiling
-DEPS = include
+DEPS = includes
 WLFAGS = -Wall -Werror -Wextra -g
 CC = clang
 CFLAGS = $(WFLAGS) -I$(DEPS)
